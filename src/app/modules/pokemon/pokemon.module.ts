@@ -11,9 +11,9 @@ import { PokemonFormComponent } from './pokemon-form/pokemon-form.component';
 import { EditPokemonComponent } from './edit-pokemon/edit-pokemon.component';
 
 const pokemonRoutes: Routes = [
-  {path : 'pokemons', component: ListePokemonComponent},
-  {path : 'pokemons/update/:id', component: PokemonFormComponent},
+  {path : 'pokemons/edit/:id', component: EditPokemonComponent},
   {path : 'pokemons/:id', component: DetailsPokemonComponent},
+  {path : 'pokemons', component: ListePokemonComponent},
 
 ];
 
